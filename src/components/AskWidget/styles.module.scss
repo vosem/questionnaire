@@ -1,0 +1,48 @@
+.Wrapper {
+  width: 49%;
+  flex-grow: 0;
+  box-sizing: border-box;
+
+  .Form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    input {
+      width: 65%;
+      height: 30px;
+      border-radius: 5px;
+      border: 1px solid lightgray;
+      padding: 5px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    }
+
+    button {
+      width: 30%;
+      height: 42px;
+      border-radius: 5px;
+      border: 1px solid lightgray;
+      padding: 5px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+
+      &:active {
+        background-color: #a8a6a0;
+      }
+    }
+  }
+
+  .Ul {
+    width: 100%;
+    margin: 20px 0 0 -20px;
+    text-align: start;
+
+    li {
+      width: calc(100% - 20px);
+    }
+  }
+}

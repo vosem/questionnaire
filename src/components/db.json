@@ -1,0 +1,9 @@
+{
+  "defaultAnswer": "The answer to life, universe and everything is 42",
+  "data": [
+    {
+      "question": "What is Peters favorite food?",
+      "answer": ["Pizza", "Spaghetti", "Ice cream"]
+    }
+  ]
+}
